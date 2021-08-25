@@ -1,0 +1,96 @@
+body
+{
+  font-family: 'Vollkorn', serif;
+}
+.headSection{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.header{
+    display:flex;
+    color:#AAA;
+  }
+  #head{
+    color:#313131;
+  }
+  .search{
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+  .search-input{
+    width: 90%;
+    height: 50px;
+    font-size: 18px;
+    color: #efefef;
+    background-color: #504f4f;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 100px;
+    margin-right: -50px;
+  }
+  .search-input:focus
+  {
+    outline: none;
+    width: 100%;
+    background-color: #504f4f;
+  }
+  .search__button
+  {
+    border: none;
+    background-color:#504f4f ;
+    cursor: pointer;
+
+  }
+  .search__button:active{
+    transform: translateY(2px);
+  }
+  .search__icon{
+    font-size: 25px;
+    color: #999;
+  }
+  .anime-list
+  {
+   display: inline-flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: center;
+  }
+  #welcomeText
+  {
+    color: #313131;
+    width: 100%;
+  }
+  .container{
+      width:15rem;
+      height: 30rem;
+      box-shadow: 3px 3px 10px 2px  rgba(50,50,50,0.1);
+      border-radius:0.5rem;
+      overflow:hidden;  
+      display:flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-left: 20px;
+      margin-top: 40px;
+      transition:1s;
+      background-color:white;
+      color:#313131 ;
+    }
+    .container:hover
+    {
+      transform: scale(1.1);
+    }
+    .details{
+      font-weight:bold;
+    }
+    .poster{
+      max-width:100%;
+      max-height:13rem;
+    }
+    .info{
+      padding:10px;
+    }
